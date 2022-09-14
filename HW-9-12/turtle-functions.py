@@ -78,7 +78,7 @@ def hexagon(t,x,y,w,color,sidelen):
     t.forward(sidelen)
     t.right(120)
   
-
+def positon_turtle(t,x,y,w,color)
 
     
 #def ngon(t,numsides,x,y,color,width,sidelen):
@@ -92,14 +92,16 @@ def hexagon(t,x,y,w,color,sidelen):
       t.color(color)
       t.pendown()
     # draw a ngon
+
+      
     side_length = 45
     my_angle = 360/x
 
-    for i in range(x):
-      t.forward(sidelength)
-      t.right(myangle)
+    for i in range(numsides):
+      t.forward(sidelen)
+      t.right(360/numsides)
 
-      ngon(6)
+      
 
 wn = turtle.Screen()
 
@@ -115,5 +117,6 @@ square(crush,150,30,2,"blue",60)
 
 triangle(crush,-100,-50,2,"green",50)
 hexagon(crush, 50, 100, 1,"black", 50)
-
+ngon(crush,5,80,130,"black",1,50)
+ngon(crush,6,-80,-130,"red",2,80)
 wn.mainloop()
