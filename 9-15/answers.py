@@ -1,22 +1,39 @@
 #question 7
-from test import testEqual
+
 def is_even(n):
     if n % 2 == 0:
-        print ("true")
+        return true
     else:
-        print ("false")
+        return false
+
+result = is_even(10)
+print("Result for 10 is:", result)
+result=is_even(11)
+print("Result for 11 is", result)
 
 #question 8
-from test import testEqual
+
 def is_odd(n):
     if n % 2 != 0:
-        print ("true")
+        return true
     else:
-        print ("false")
+        return false
+
+result = is_even(10)
+print("Result for 10 is:", result)
+result=is_even(11)
+print("Result for 11 is", result)
 
 #question 10
+
+import math
 def is_rightangled(a, b, c):
     return abs((a ** 2 + b ** 2) - (c ** 2)) < 0.001
+
+  sum= a*a + b*b
+return= math.sqrt(sum) == c
+return a*a + b*b == c*c
+
 
 #question 11
 def is_rightangled(a, b, c):
