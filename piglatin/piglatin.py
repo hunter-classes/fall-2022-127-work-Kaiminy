@@ -17,4 +17,29 @@ def bondify
 firstname=input("What is your first name")
 lastname=input("What is your last name")
 
-print(lastname + "," +firstnamae)
+print(lastname + "," +firstname)
+
+
+
+#piglatin classwork
+
+def piglatinify(word):
+  first = word[0]
+  if first == 'a' or first == 'e'
+
+
+
+
+
+
+#piglatin classwork
+  def piglatinify(word):
+    
+    first = word[0]
+    if first in 'aeiou':
+        result = word + 'ay'
+    else:
+        # move first letter to end and add 'ay'
+        result = word[1:]+first+'ay'
+    
+    return result
