@@ -6,7 +6,6 @@ def squared(thelist):
 
 
 numberslist=[5,6,7]
-print(numberslist)
 squared(numberslist)
 print(numberslist)
 
