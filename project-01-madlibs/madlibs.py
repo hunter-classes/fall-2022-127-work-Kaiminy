@@ -20,5 +20,5 @@ def madlibs(contents):
     result = " ".join(new)
     result= result.replace("<hero>",random.choice(Hero))
   return result
-
-printmadlibs(contents)
+ 
+print(madlibs(contents))
