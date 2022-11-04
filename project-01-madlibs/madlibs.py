@@ -16,7 +16,7 @@ Noun = ["flowers", "dirty dishes", "cats", "frogs", "nails", "chairs", "pencils"
 hero = Hero[random.randint(0,10)]
 new_text= contents.replace("<hero>",hero)
 
-#I'm sorry but I couldn't figure out the loop and now the code is a really big block and repetitive.
+#I'm sorry but I couldn't figure out the loop and now the code is a really big block and repetitive. The loop is in trial.py but the hero part doesn't work.
 for i in new_text:
   new_text=new_text.replace("<noun1>", Noun[random.randint(0,8)])
   new_text=new_text.replace("<noun2>", Noun[random.randint(0,8)])
