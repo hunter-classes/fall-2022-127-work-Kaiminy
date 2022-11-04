@@ -28,7 +28,10 @@ def madlibs(contents):
   for word in contents.split():
     new = new + [word.replace("<noun>", random.choice(Noun)).replace('<verb>', random.choice(Verb)).replace("<noun>", random.choice(Noun))]
     result = " ".join(new)
+    result= result.replace("<hero>",random.choice(Hero))
   return result
-  return result.replace("<hero>", random.choice(Hero))
+ 
+
+
 
 print(madlibs(contents))
