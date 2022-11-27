@@ -1,0 +1,26 @@
+partner:laddy parrot
+hi:Avast ye!
+here:high seas
+release:keel-haul
+We:Us sandcrabs
+boat:ship
+beginners:landlubber scallywags
+fixing:rigging
+skill:cat o' nine tails
+release:belay
+here:yonder there
+rest:finishing piece
+
+
+dict= { "partner":"laddy parrot",
+       "hi":"Avast ye!",
+       "here":"high seas",
+       "release":"keel-haul", 
+       "We":"Us sandcrabs",
+       "boat":"ship",
+       "beginners":"landlubber scallywags",
+       "fixing":"rigging",
+       "skill":"cat o' nine tails",
+       "release":"belay",
+       "here":"yonder there",
+       "rest":"finishing piece" }
