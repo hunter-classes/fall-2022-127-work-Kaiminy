@@ -2,6 +2,7 @@
 
 file_text = open("input.txt")
 s=file_text.read()
+print(s)
 
 
 dict= { "partner":"laddy parrot",
@@ -17,11 +18,8 @@ dict= { "partner":"laddy parrot",
        "here":"yonder there",
        "rest":"finishing piece" }
 
-
-
 for i in dict:
   s=s.replace(i,dict[i])
-
 
 s +="See right here Mateys!"
 
