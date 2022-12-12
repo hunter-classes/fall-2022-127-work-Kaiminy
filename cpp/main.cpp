@@ -19,6 +19,8 @@ else if (y=0){
 // function
 }
 
+a=5
+b=6
 int add_two_numbers(int a, int b){
   int c;
   std::cout << "In func a: " << a << " b: " << b << "\n";
