@@ -1,8 +1,18 @@
-#Finding how many are ranked and the average age and Matplotlib
+#Matplotlib
 
 import csv
 reader=csv.reader(open("billionaires.csv"))
+#for line in reader:
+  #print (line)
 
+data = [x for x in reader]
+
+d=(data[231],data[129])
+
+print(d)
+print(data[0])
+
+import csv
 with open('billionaires.csv', newline='') as csvfile:
     reader = csv.DictReader(csvfile)
     for row in reader:
@@ -10,6 +20,7 @@ with open('billionaires.csv', newline='') as csvfile:
 
 
 from csv import DictReader
+print(data[0])
 from typing import List, Dict
 file_handle = open("billionaires.csv" , "r", encoding="utf8")
 csv_reader = DictReader(file_handle)
@@ -29,6 +40,15 @@ print("Average age is:" + str(high_sum / len(table)))
 
 file_handle.close()
 
+#with open('billionaires.csv') as f:
+    #reader = csv.DictReader(f)
+    #for row in reader:
+        #list = row['demographics.age']
+        
+#average = sum(list) / len(list)
+       
+# Printing average of the list
+#print("Average of the list =", average)
 
 print("There are 1565 ranked in this csv")
 
