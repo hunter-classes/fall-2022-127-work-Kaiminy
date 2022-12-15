@@ -1,29 +1,41 @@
-//hello world
+ //hello world
 #include <iostream>
 
 int main() {
   std::cout << "Hello World!\n";
 }
 
-// if and loop
-y= 9
+// if 
+int x = 10;
+int y = 4;
+if (x > y) {
+  cout << "x is greater than y";
+}
 
-if (y=9) {
-  cout<<"You are 19!\n";
-}
-else if (y=0){
-  cout<<"You are not 19";
-}
+//loop
+for (int i = 0; i <= 9; i = i + 2) {
+  cout << i << "\n";
 
 
 // function
+
+#include <iostream>
+using namespace std;
+
+void displayNum(int n1, float n2) {
+    cout << "The int number is " << n1;
+    cout << "The double number is " << n2;
 }
 
-a=5
-b=6
-int add_two_numbers(int a, int b){
-  int c;
-  std::cout << "In func a: " << a << " b: " << b << "\n";
-  c = a + b;
-  return c;
+int main() {
+     
+     int num1 = 4;
+     double num2 = 9;
+
+    displayNum(num1, num2);
+
+    return 0;
 }
+
+//i am trying to commit to github but its not working attempt #49
+//yuh

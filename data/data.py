@@ -32,11 +32,7 @@ file_handle.close()
 
 print("There are 1565 ranked in this csv")
 
-import matplotlib
 import matplotlib.pyplot as plt
-from matplotlib import pyplot
-
-import csv
 
 x = []
 y = []
@@ -54,4 +50,3 @@ plt.ylabel('Ages')
 plt.title('Ages of different persons')
 plt.legend()
 plt.show()
-
